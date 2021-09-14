@@ -71,3 +71,67 @@
 #         print(car.upper())
 #     else:
 #          print(car.capitalize())
+
+# while loop
+# number = 0
+
+# while number <= 10:
+#     print(number)
+#     number = number + 1
+# else:
+#     print('While loop ended and value of number is ' + str(number))
+
+
+# Function
+# def check_age(age):
+#     if age < 18:
+#         print('Oppps! Not an adult')
+#     else:
+#         print('Hurrry! I am an adult')
+
+# check_age(18)
+# check_age(17)
+# check_age(99)
+
+
+# Build-in function
+# def check_age(age):
+#     if age < 18:
+#         print('Oppps! Not an adult')
+#     else:
+#         print('Hurrry! I am an adult')
+
+# print('hello'.endswith('O'))
+# print('hello'.endswith('o'))
+
+
+# check_age(18)
+# check_age(17)
+# check_age(99)
+
+
+# Classes & Object
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+    
+#     def walk(self):
+#         print(self.name + ' is walking...')
+    
+#     def speak(self):
+#         print('Hello, My name is ' + self.name + ' and I am ' + str(self.age) + ' years old!')
+
+
+# john = Person('John', 22)
+# maria = Person('Maria', 18)
+
+# print(john.name + ' ' + str(john.age))
+# john.speak()
+# john.walk()
+
+# print(maria.name + ' ' + str(maria.age))
+# maria.speak()
+# maria.walk()
+
+
